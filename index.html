@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vovapro01345 — Разработчик и создатель Real_Speak</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --accent: #58a6ff;
+            --accent-hover: #79c0ff;
+            --muted: #8b949e;
+            --telegram: #26A5E4;
+            --discord: #5865F2;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container { max-width: 720px; width: 100%; }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 20px;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .avatar {
+            width: 96px; height: 96px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), #a371f7);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 42px; font-weight: 800; color: #fff;
+            margin-bottom: 16px; user-select: none;
+        }
+
+        h1 { font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+
+        .tagline { color: var(--muted); font-size: 16px; margin-bottom: 20px; }
+
+        .bio { color: var(--text); font-size: 15px; margin-bottom: 28px; line-height: 1.7; }
+        .bio strong { color: #fff; }
+
+        h2 {
+            font-size: 18px; font-weight: 600; color: #fff;
+            margin-bottom: 14px; padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .project-list {
+            list-style: none;
+            display: flex; flex-direction: column; gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .project-list li {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .project-list li:hover {
+            border-color: var(--accent);
+            transform: translateX(4px);
+        }
+
+        .project-list a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .project-list a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .project-list p { color: var(--muted); font-size: 13.5px; margin-top: 4px; }
+
+        .links { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+
+        .links a {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 16px;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 14px; font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .links a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+        .links .icon { font-size: 16px; }
+
+        .footer { text-align: center; color: var(--muted); font-size: 13px; padding: 16px 0; }
+        .footer a { color: var(--accent); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 600px) {
+            .card { padding: 24px 20px; }
+            h1 { font-size: 22px; }
+            .links a { flex: 1 1 calc(50% - 5px); justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="avatar">V</div>
+            <h1>vovapro01345</h1>
+            <p class="tagline">Разработчик · Создатель Real_Speak · Rust &amp; низкоуровневая разработка</p>
+
+            <p class="bio">
+                Привет! Я разрабатываю <strong>Real_Speak</strong> — децентрализованный мессенджер с акцентом на приватность.
+                Также создаю инструменты для приставочной ОС <strong>Real_X</strong>, включая многопоточный компилятор
+                <strong>rbs_compiler</strong> с LZ4-сжатием и rolling XOR-шифрованием.
+                Веду YouTube-канал «очим_стрим», публикую 3D-модели на Sketchfab и развиваю студию
+                <strong>Real_Studio</strong>.
+            </p>
+
+            <h2>🛠️ Проекты</h2>
+            <ul class="project-list">
+                <li>
+                    <a href="https://realspeak.ddns.net/" target="_blank" rel="noopener">Real_Speak — мессенджер</a>
+                    <p>Децентрализованный PWA-мессенджер с Web Push, кастомными звуками и 2FA (TOTP).</p>
+                </li>
+                <li>
+                    <a href="https://github.com/vovapro01345/rbs_compiler" target="_blank" rel="noopener">rbs_compiler</a>
+                    <p>Многопоточный компилятор формата RBS для приставочной ОС Real_X. Drag-and-drop сборка игр.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/vovapro01345/Real_Studio" target="_blank" rel="noopener">Real_Studio</a>
+                    <p>Мой личный сайт на HTML.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/vovapro01345/source_loader_to_rust" target="_blank" rel="noopener">source_loader_to_rust</a>
+                    <p>Загрузчик исходников на Rust.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/vovapro01345/decay-launcher" target="_blank" rel="noopener">decay-launcher</a>
+                    <p>Лаунчер для игрового проекта Decay.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/vovapro01345/decay-game" target="_blank" rel="noopener">decay-game</a>
+                    <p>Игровой проект Decay.</p>
+                </li>
+            </ul>
+
+            <h2>💬 Сообщество</h2>
+            <div class="links" style="margin-bottom: 28px;">
+                <a href="https://t.me/Real_Studio" target="_blank" rel="noopener" style="border-color: var(--telegram);">
+                    <span class="icon">✈️</span> Telegram — Real_Studio
+                </a>
+                <a href="https://discord.gg/YRvA7vuMrc" target="_blank" rel="noopener" style="border-color: var(--discord);">
+                    <span class="icon">💬</span> Discord — Сообщество
+                </a>
+            </div>
+
+            <h2>🔗 Ссылки</h2>
+            <div class="links">
+                <a href="https://github.com/vovapro01345" target="_blank" rel="noopener">
+                    <span class="icon">🐙</span> GitHub
+                </a>
+                <a href="https://www.youtube.com/@очим_стрим" target="_blank" rel="noopener">
+                    <span class="icon">▶️</span> YouTube
+                </a>
+                <a href="https://sketchfab.com/vovapro01345kib" target="_blank" rel="noopener">
+                    <span class="icon">🎨</span> Sketchfab
+                </a>
+                <a href="https://www.producthunt.com/@vovapro01345" target="_blank" rel="noopener">
+                    <span class="icon">🚀</span> Product Hunt
+                </a>
+                <a href="https://realspeak.ddns.net/" target="_blank" rel="noopener">
+                    <span class="icon">💬</span> Real_Speak
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 vovapro01345 · Сделано с ❤️ и Rust
+        </div>
+
+    </div>
+</body>
+</html>
