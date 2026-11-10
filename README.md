@@ -4,7 +4,7 @@
 
 Разработчик и создатель проекта **Real_Speak** — децентрализованного мессенджера с акцентом на приватность и простоту.  
 Увлекаюсь низкоуровневой разработкой, компиляторами и созданием инструментов для игровых платформ.  
-Веду стримы и развиваю сообщество вокруг игровой студии **Real_Studio_Game**.
+Веду стримы и развиваю сообщество вокруг студии **Real_Studio**.
 
 - 🔭 Сейчас работаю над экосистемой **Real_X** и мессенджером **Real_Speak**
 - 🌱 Изучаю Rust и системное программирование
@@ -40,7 +40,7 @@
 
 ## 💬 Сообщество и стримы
 
-- [Telegram — Real_Studio_Game](https://t.me/Real_Studio_Game) — новости и анонсы игровой студии
+- [Telegram — Real_Studio](https://t.me/Real_Studio) — новости и анонсы студии
 - [Discord — сервер сообщества](https://discord.gg/YRvA7vuMrc) — общение, поддержка и обсуждение проектов
 
 ---
@@ -49,7 +49,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-vovapro01345-181717?style=for-the-badge&logo=github)](https://github.com/vovapro01345)
 [![YouTube](https://img.shields.io/badge/YouTube-очим_стрим-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@очим_стрим)
-[![Telegram](https://img.shields.io/badge/Telegram-Real_Studio_Game-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/Real_Studio_Game)
+[![Telegram](https://img.shields.io/badge/Telegram-Real_Studio-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/Real_Studio)
 [![Discord](https://img.shields.io/badge/Discord-Сообщество-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/YRvA7vuMrc)
 [![Sketchfab](https://img.shields.io/badge/Sketchfab-vovapro01345kib-1CAAD9?style=for-the-badge&logo=sketchfab)](https://sketchfab.com/vovapro01345kib)
 [![Product Hunt](https://img.shields.io/badge/Product_Hunt-vovapro01345-DA552F?style=for-the-badge&logo=producthunt)](https://www.producthunt.com/@vovapro01345)
